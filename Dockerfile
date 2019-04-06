@@ -6,4 +6,4 @@ RUN apk add nodejs  \
     && gitbook install \
     && mkdir -p /usr/share/fonts/truetype
     
-COPY fonts/* /usr/share/fonts/truetype
+COPY fonts/* /usr/share/fonts/truetype/
