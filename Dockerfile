@@ -1,4 +1,4 @@
-FROM linuxserver/calibre-web:latest
+FROM technosoft2000/calibre-web:latest
 RUN apk add nodejs  \
     && apk add npm \
     && npm install gitbook-cli -g  \
